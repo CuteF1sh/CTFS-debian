@@ -1,0 +1,145 @@
+19:06:46.205629 IP6 ::1.53722 > ::1.8080: Flags [S], seq 3987541939, win 65476, options [mss 65476,sackOK,TS val 3550978637 ecr 0,nop,wscale 7], length 0
+`.~<.(.@.................................................0.........
+...M........
+19:06:46.205645 IP6 ::1.8080 > ::1.53722: Flags [R.], seq 0, ack 3987541940, win 0, length 0
+`
+.#...@............................................P.......
+19:06:46.207158 IP 127.0.0.1.34946 > 127.0.0.1.8080: Flags [S], seq 4003321738, win 65495, options [mss 65495,sackOK,TS val 375052236 ecr 0,nop,wscale 7], length 0
+E..<N.@.@............................0.........
+.Z..........
+19:06:46.207172 IP 127.0.0.1.8080 > 127.0.0.1.34946: Flags [S.], seq 2319266448, ack 4003321739, win 65483, options [mss 65495,sackOK,TS val 375052236 ecr 375052236,nop,wscale 7], length 0
+E..<..@.@.<..............=2..........0.........
+.Z...Z......
+19:06:46.207185 IP 127.0.0.1.34946 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 375052236 ecr 375052236], length 0
+E..4N.@.@....................=2......(.....
+.Z...Z..
+19:06:46.207403 IP 127.0.0.1.34946 > 127.0.0.1.8080: Flags [P.], seq 1:235, ack 1, win 512, options [nop,nop,TS val 375052236 ecr 375052236], length 234: HTTP: POST / HTTP/1.1
+E...N.@.@....................=2............
+.Z...Z..POST / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.14.1
+Accept: */*
+Authorization: Basic dmFzeWE6TX1QYXNzd29yZDIwMjQ=
+Content-Length: 35
+Content-Type: application/x-www-form-urlencoded
+
+username=vasya&password=Mypass2026d
+19:06:46.207410 IP 127.0.0.1.8080 > 127.0.0.1.34946: Flags [.], ack 235, win 510, options [nop,nop,TS val 375052236 ecr 375052236], length 0
+E..4..@.@................=2....u.....(.....
+.Z...Z..
+19:06:46.208472 IP 127.0.0.1.8080 > 127.0.0.1.34946: Flags [P.], seq 1:199, ack 235, win 512, options [nop,nop,TS val 375052237 ecr 375052236], length 198: HTTP: HTTP/1.0 501 Unsupported method ('POST')
+E.....@.@..,.............=2....u...........
+.Z...Z..HTTP/1.0 501 Unsupported method ('POST')
+Server: SimpleHTTP/0.6 Python/3.13.5
+Date: Wed, 13 May 2026 14:06:46 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 357
+
+
+19:06:46.208488 IP 127.0.0.1.34946 > 127.0.0.1.8080: Flags [.], ack 199, win 511, options [nop,nop,TS val 375052237 ecr 375052237], length 0
+E..4N	@.@..................u.=3W.....(.....
+.Z...Z..
+19:06:46.208505 IP 127.0.0.1.8080 > 127.0.0.1.34946: Flags [P.], seq 199:556, ack 235, win 512, options [nop,nop,TS val 375052237 ecr 375052237], length 357: HTTP
+E.....@.@................=3W...u...........
+.Z...Z..<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 501</p>
+        <p>Message: Unsupported method ('POST').</p>
+        <p>Error code explanation: 501 - Server does not support this operation.</p>
+    </body>
+</html>
+
+19:06:46.208510 IP 127.0.0.1.34946 > 127.0.0.1.8080: Flags [.], ack 556, win 509, options [nop,nop,TS val 375052237 ecr 375052237], length 0
+E..4N
+@.@..................u.=4......(.....
+.Z...Z..
+19:06:46.208576 IP 127.0.0.1.8080 > 127.0.0.1.34946: Flags [F.], seq 556, ack 235, win 512, options [nop,nop,TS val 375052237 ecr 375052237], length 0
+E..4..@.@................=4....u.....(.....
+.Z...Z..
+19:06:46.208813 IP 127.0.0.1.34946 > 127.0.0.1.8080: Flags [F.], seq 235, ack 557, win 512, options [nop,nop,TS val 375052238 ecr 375052237], length 0
+E..4N.@.@..................u.=4......(.....
+.Z...Z..
+19:06:46.208830 IP 127.0.0.1.8080 > 127.0.0.1.34946: Flags [.], ack 236, win 512, options [nop,nop,TS val 375052238 ecr 375052238], length 0
+E..4..@.@................=4....v.....(.....
+.Z...Z..
+19:08:35.261207 IP6 ::1.58974 > ::1.8080: Flags [S], seq 3679774147, win 65476, options [mss 65476,sackOK,TS val 3551087693 ecr 0,nop,wscale 7], length 0
+`....(.@.................................^...T...........0.........
+..LM........
+19:08:35.261221 IP6 ::1.8080 > ::1.58974: Flags [R.], seq 0, ack 3679774148, win 0, length 0
+`..$...@...................................^.....T..P.......
+19:08:35.262228 IP 127.0.0.1.45844 > 127.0.0.1.8080: Flags [S], seq 396091036, win 65495, options [mss 65495,sackOK,TS val 375161291 ecr 0,nop,wscale 7], length 0
+E..<.?@.@.vz.........................0.........
+.\..........
+19:08:35.262241 IP 127.0.0.1.8080 > 127.0.0.1.45844: Flags [S.], seq 4101789156, ack 396091037, win 65483, options [mss 65495,sackOK,TS val 375161291 ecr 375161291,nop,wscale 7], length 0
+E..<..@.@.<..............|U..........0.........
+.\...\......
+19:08:35.262254 IP 127.0.0.1.45844 > 127.0.0.1.8080: Flags [.], ack 1, win 512, options [nop,nop,TS val 375161291 ecr 375161291], length 0
+E..4.@@.@.v..................|U......(.....
+.\...\..
+19:08:35.262391 IP 127.0.0.1.45844 > 127.0.0.1.8080: Flags [P.], seq 1:235, ack 1, win 512, options [nop,nop,TS val 375161291 ecr 375161291], length 234: HTTP: POST / HTTP/1.1
+E....A@.@.u..................|U............
+.\...\..POST / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/8.14.1
+Accept: */*
+Authorization: Basic dmFzeWE6TX1QYXNzd29yZDIwMjQ=
+Content-Length: 35
+Content-Type: application/x-www-form-urlencoded
+
+username=vasya&password=Mypass2026d
+19:08:35.262398 IP 127.0.0.1.8080 > 127.0.0.1.45844: Flags [.], ack 235, win 510, options [nop,nop,TS val 375161291 ecr 375161291], length 0
+E..4..@.@................|U..........(.....
+.\...\..
+19:08:35.267799 IP 127.0.0.1.8080 > 127.0.0.1.45844: Flags [P.], seq 1:199, ack 235, win 512, options [nop,nop,TS val 375161297 ecr 375161291], length 198: HTTP: HTTP/1.0 501 Unsupported method ('POST')
+E.....@.@................|U................
+.\...\..HTTP/1.0 501 Unsupported method ('POST')
+Server: SimpleHTTP/0.6 Python/3.13.5
+Date: Wed, 13 May 2026 14:08:35 GMT
+Connection: close
+Content-Type: text/html;charset=utf-8
+Content-Length: 357
+
+
+19:08:35.267866 IP 127.0.0.1.45844 > 127.0.0.1.8080: Flags [.], ack 199, win 511, options [nop,nop,TS val 375161297 ecr 375161297], length 0
+E..4.B@.@.v..................|V......(.....
+.\...\..
+19:08:35.267901 IP 127.0.0.1.8080 > 127.0.0.1.45844: Flags [P.], seq 199:556, ack 235, win 512, options [nop,nop,TS val 375161297 ecr 375161297], length 357: HTTP
+E.....@.@..=.............|V................
+.\...\..<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 501</p>
+        <p>Message: Unsupported method ('POST').</p>
+        <p>Error code explanation: 501 - Server does not support this operation.</p>
+    </body>
+</html>
+
+19:08:35.267907 IP 127.0.0.1.45844 > 127.0.0.1.8080: Flags [.], ack 556, win 509, options [nop,nop,TS val 375161297 ecr 375161297], length 0
+E..4.C@.@.v~.................|X......(.....
+.\...\..
+19:08:35.267955 IP 127.0.0.1.8080 > 127.0.0.1.45844: Flags [F.], seq 556, ack 235, win 512, options [nop,nop,TS val 375161297 ecr 375161297], length 0
+E..4. @.@................|X..........(.....
+.\...\..
+19:08:35.268287 IP 127.0.0.1.45844 > 127.0.0.1.8080: Flags [F.], seq 235, ack 557, win 512, options [nop,nop,TS val 375161297 ecr 375161297], length 0
+E..4.D@.@.v}.................|X......(.....
+.\...\..
+19:08:35.268315 IP 127.0.0.1.8080 > 127.0.0.1.45844: Flags [.], ack 236, win 512, options [nop,nop,TS val 375161297 ecr 375161297], length 0
+E..4.!@.@................|X..........(.....
+.\...\..
+19:08:35.859110 IP6 ::1.58976 > ::1.8080: Flags [S], seq 2017596484, win 65476, options [mss 65476,sackOK,TS val 3551088291 ecr 0,nop,wscale 7], length 0
+`.V..(.@.................................`..xB.D.........0.........
+..N.........
+19:08:35.859118 IP6 ::1.8080 > ::1.58976: Flags [R.], seq 0, ack 2017596485, win 0, length 0
+`......@...................................`....xB.EP.......
